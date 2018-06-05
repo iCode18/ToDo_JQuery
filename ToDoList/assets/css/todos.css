@@ -1,0 +1,16 @@
+/*body{
+	background: #232323;
+}*/
+
+#container{
+	margin:0 auto;
+	/*background: gray;*/
+	width: 360px;
+	border: 2px solid black;
+}
+
+.checked{
+	text-decoration:line-through;
+	color: gray;
+	font-weight: italic;
+}
