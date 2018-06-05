@@ -18,8 +18,11 @@ $("input[type='text']").keypress(function(event){
 		var newItem = $(this).val();
 		$(this).val("");
 		//add the new item to list
-		$("ul").append("<li><span>X</span> " + newItem + "</li>")
+		$("ul").append("<li><span><i class='fas fa-trash-alt'></i></span> " + newItem + "</li>");
+
 	}
 })
 
-
+$(".fa-plus").on("click", function(){
+	$("input[type='text']").fadeToggle();
+})
